@@ -1,4 +1,6 @@
- ![alt logo](https://front-bethehero.herokuapp.com/static/media/logo.7eea718b.svg)
+<p align="center">
+  <img src="https://front-bethehero.herokuapp.com/static/media/logo.7eea718b.svg">
+</p>
 
 # Backend-BeTheHero
 API da aplicação Be The Hero
