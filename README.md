@@ -1,25 +1,43 @@
 <p align="center">
   <img src="https://front-bethehero.herokuapp.com/static/media/logo.7eea718b.svg">
 </p>
+<h2 align="center">
+  API - Be The Hero
+</h2>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/top/tiquinhonew/backend-BeTheHero">
+  
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/tiquinhonew/backend-beTheHero">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tiquinhonew/backend-beTheHero">
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues/tiquinhonew/backend-beTheHero">
+  <img alt="GitHub" src="https://img.shields.io/github/license/tiquinhonew/backend-BeTheHero"> 
+</p>
+<p align="center">
+  <a href="#link-links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#open_file_folder-recursos">Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#arrow_down-Dependencias">License</a>
+</p>
 
-# Backend-BeTheHero
+
+## :link: Links
 API da aplicação Be The Hero
 - URL
   - API= https://api-be-the.herokuapp.com
   - Front = https://front-bethehero.herokuapp.com
-## Recursos
+
+## :open_file_folder: Recursos
 - Post '/session'
 
-- Get '/ongs' - LISTA AS ONG'S
-- Post '/ongs' - CRIA UM ONG
+- Get '/ongs' - LISTAR ONG'S
+- Post '/ongs' - CRIAR UM ONG
 
-- Get '/profile' - LISTA DE INCIDENTES DE UMA ONG
+- Get '/profile' - LISTAR INCIDENTES DE UMA ONG
 
-- Post '/incidents' - LISTA DE INCIDENTES
-- Get '/incidents' - CRIA UM INCIDENTE
-- Delete '/incidents/:id' - DETALHE DE UM INCIDENTE
+- Post '/incidents' - LISTAR INCIDENTES
+- Get '/incidents' - CRIAR UM INCIDENTE
+- Delete '/incidents/:id' - DELETAR DE UM INCIDENTE
 
-## Dependencias
+## :arrow_down: Dependencias
 
     cors
     express
