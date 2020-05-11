@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://front-bethehero.herokuapp.com/static/media/logo.7eea718b.svg">
+  <img src="logo-bethehero.svg">
 </p>
 <h2 align="center">
   API - Be The Hero
@@ -20,13 +20,13 @@
 </p>
 
 
-## :link: Links
+### :link: Links
 API da aplicação Be The Hero
 - URL
   - API= https://api-be-the.herokuapp.com
   - Front = https://front-bethehero.herokuapp.com
 
-## :open_file_folder: Recursos
+### :open_file_folder: Recursos
 - Post '/session'
 
 - Get '/ongs' - LISTAR ONG'S
@@ -38,14 +38,16 @@ API da aplicação Be The Hero
 - Get '/incidents' - CRIAR UM INCIDENTE
 - Delete '/incidents/:id' - DELETAR DE UM INCIDENTE
 
-## :arrow_down: Dependência
+### :arrow_down: Dependência
 
+```js
     cors
     express
     knex
     sqlite3
+ ```
  
- ## :memo: Licença
+ ### :memo: Licença
 Este projeto está sob a licença MIT. Veja a [licença](https://github.com/tiquinhonew/backend-beTheHero/blob/master/LICENSE) para mais informações.
 
 ---
