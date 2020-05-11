@@ -21,6 +21,9 @@
 
 
 ### :link: Links
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d627c9062b924866be05b210a5b8e16c)](https://app.codacy.com/manual/tiquinhonew/backend-BeTheHero?utm_source=github.com&utm_medium=referral&utm_content=tiquinhonew/backend-BeTheHero&utm_campaign=Badge_Grade_Settings)
+
 API da aplicação Be The Hero
 - URL
   - API= https://api-be-the.herokuapp.com
