@@ -7,15 +7,16 @@
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/top/tiquinhonew/backend-BeTheHero">
   
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/tiquinhonew/backend-beTheHero">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tiquinhonew/backend-beTheHero">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/tiquinhonew/backend-beTheHero?color=blueviolet">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tiquinhonew/backend-beTheHero?color=orange">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/tiquinhonew/backend-beTheHero">
   <img alt="GitHub" src="https://img.shields.io/github/license/tiquinhonew/backend-BeTheHero"> 
 </p>
 <p align="center">
   <a href="#link-links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#open_file_folder-recursos">Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#arrow_down-Dependencias">License</a>
+  <a href="#arrow_down-dependência">Dependência</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
 </p>
 
 
@@ -37,9 +38,17 @@ API da aplicação Be The Hero
 - Get '/incidents' - CRIAR UM INCIDENTE
 - Delete '/incidents/:id' - DELETAR DE UM INCIDENTE
 
-## :arrow_down: Dependencias
+## :arrow_down: Dependência
 
     cors
     express
     knex
     sqlite3
+ 
+ ## :memo: Licença
+Este projeto está sob a licença MIT. Veja a [licença](https://github.com/tiquinhonew/backend-beTheHero/blob/master/LICENSE) para mais informações.
+
+---
+
+by Douglas Moraes :wave: [Contato!](https://www.linkedin.com/in/douglasam)
+
