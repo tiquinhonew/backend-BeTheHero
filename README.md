@@ -15,7 +15,7 @@
 <p align="center">
   <a href="#link-links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#open_file_folder-recursos">Recursos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#arrow_down-dependência">Dependência</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologia</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -27,25 +27,27 @@ API da aplicação Be The Hero
   - Front = https://front-bethehero.herokuapp.com
 
 ### :open_file_folder: Recursos
-- Post '/session'
+- ['/Session'](https://api-be-the.herokuapp.com/ongs)
+  - Post    - ABRIR SESSÃO
 
-- Get '/ongs' - LISTAR ONG'S
-- Post '/ongs' - CRIAR UM ONG
+- ['/ONG'](https://api-be-the.herokuapp.com/ongs) 
+  - Get   - LISTAR ONG'S
+  - Post  - CRIAR UM ONG
+  
+- ['/Profile'](https://api-be-the.herokuapp.com/profile)
+  - Get   - LISTAR INCIDENTES DE UMA ONG
 
-- Get '/profile' - LISTAR INCIDENTES DE UMA ONG
+- ['/Incident'](https://api-be-the.herokuapp.com/incidents)
+  - Post    - LISTAR INCIDENTES
+  - Get   - CRIAR UM INCIDENTE
+  - Delete    - DELETAR DE UM INCIDENTE
 
-- Post '/incidents' - LISTAR INCIDENTES
-- Get '/incidents' - CRIAR UM INCIDENTE
-- Delete '/incidents/:id' - DELETAR DE UM INCIDENTE
+### :rocket: Tecnologias
 
-### :arrow_down: Dependência
-
-```js
-    cors
-    express
-    knex
-    sqlite3
- ```
+- [Cors](https://github.com/expressjs/cors)
+- [Express](https://github.com/expressjs/express)
+- [Knex](https://github.com/knex/knex)
+- [sqlite3](https://github.com/mapbox/node-sqlite3)
  
  ### :memo: Licença
 Este projeto está sob a licença MIT. Veja a [licença](https://github.com/tiquinhonew/backend-beTheHero/blob/master/LICENSE) para mais informações.
