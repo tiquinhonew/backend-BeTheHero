@@ -27,7 +27,7 @@ API da aplicação Be The Hero
   - Front = https://front-bethehero.herokuapp.com
 
 ### :open_file_folder: Recursos
-- ['/Session'](https://api-be-the.herokuapp.com/ongs)
+- ['/Session'](https://api-be-the.herokuapp.com/session)
   - Post    - ABRIR SESSÃO
 
 - ['/ONG'](https://api-be-the.herokuapp.com/ongs) 
