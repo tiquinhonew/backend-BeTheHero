@@ -22,38 +22,39 @@
 
 ### :link: Links
 
-API da aplicação Be The Hero
-- URL
-  - API= https://api-be-the.herokuapp.com
-  - Front = https://front-bethehero.herokuapp.com
+A aplicação Be The Hero está disponível nos links abaixo:
+- **API (Backend):** [https://backend-be-the-hero.vercel.app](https://backend-be-the-hero.vercel.app)
+- **Frontend:** [https://front-be-the-hero.vercel.app](https://front-be-the-hero.vercel.app)
 
 ### :open_file_folder: Recursos
-- ['/Session'](https://api-be-the.herokuapp.com/session)
-  - Post    - ABRIR SESSÃO
-
-- ['/ONG'](https://api-be-the.herokuapp.com/ongs) 
-  - Get   - LISTAR ONG'S
-  - Post  - CRIAR UM ONG
-  
-- ['/Profile'](https://api-be-the.herokuapp.com/profile)
-  - Get   - LISTAR INCIDENTES DE UMA ONG
-
-- ['/Incident'](https://api-be-the.herokuapp.com/incidents)
-  - Post    - LISTAR INCIDENTES
-  - Get   - CRIAR UM INCIDENTE
-  - Delete    - DELETAR DE UM INCIDENTE
+- `POST /session` - Abrir sessão
+- `GET /ongs` - Listar ONGs
+- `POST /ongs` - Criar uma ONG
+- `GET /profile` - Listar incidentes de uma ONG específica
+- `GET /incidents` - Listar todos os incidentes
+- `POST /incidents` - Criar um incidente
+- `DELETE /incidents/:id` - Deletar um incidente
 
 ### :rocket: Tecnologias
 
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [Knex.js](http://knexjs.org/)
+- [PostgreSQL](https://www.postgresql.org/) (Supabase)
 - [Cors](https://github.com/expressjs/cors)
-- [Express](https://github.com/expressjs/express)
-- [Knex](https://github.com/knex/knex)
-- [sqlite3](https://github.com/mapbox/node-sqlite3)
- 
- ### :memo: Licença
+- [Dotenv](https://github.com/motdotla/dotenv)
+
+### 🛠️ Configuração de Ambiente
+
+Para rodar o projeto localmente ou em produção, você precisará configurar as seguintes variáveis de ambiente:
+
+```env
+DATABASE_URL=sua_string_de_conexao_postgresql
+```
+
+### :memo: Licença
 Este projeto está sob a licença MIT. Veja a [licença](https://github.com/tiquinhonew/backend-beTheHero/blob/master/LICENSE) para mais informações.
 
 ---
 
 by Douglas Moraes :wave: [Contato!](https://www.linkedin.com/in/douglasam)
-
